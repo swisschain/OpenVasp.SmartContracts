@@ -1,18 +1,3 @@
-# vasp.contracts
-
-## Build and deploy
-
-* make file with name `.env` and setup params. You can use `.env.format` as example.
-* `npm install`
-* `truffle compile`
-* `truffle migrate --network ropsten`
-
-## Verify source code in etherscan.io
-
-* `truffle run verify VASP --network ropsten`
-* `truffle run verify VaspFactory --network ropsten`
-* `truffle run verify VaspBuilder --network ropsten`
-
 # How to use Vasp Builder
 
 You want to create a new Vasp Smart Contract? 
@@ -30,3 +15,18 @@ Instructions to create VASP in ropsten network (testnet):
 5. After transaction executed, check event list in transaction or in smart contract
 5.1. In event `VaspCreated` you can see vasp address in first property
 5.2. Alternative way to find VASP address - call READ method getLast and provide your ETH address.
+
+# how to deploy it by yourself
+
+## Build and deploy
+
+* make file with name `.env` and setup params. You can use `.env.format` as example.
+* `npm install`
+* `truffle compile`
+* `truffle migrate --network ropsten`
+
+## Verify source code in etherscan.io
+
+* `truffle run verify VASP --network ropsten`
+* `truffle run verify VaspFactory --network ropsten`
+* `truffle run verify VaspBuilder --network ropsten`
