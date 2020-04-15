@@ -10,5 +10,7 @@ contract VaspFactory is IVaspFactory {
         VASP vasp = new VASP();
 
         vasp.initialize(msg.sender);
+
+        return address(vasp);
     }
 }
