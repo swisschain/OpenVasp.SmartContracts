@@ -10,7 +10,7 @@ Just open DAPP on etherscan.io and create your VASP smart contract.
 Instructions to create VASP in ropsten network (testnet):
 1. You should have address with 0.06 ETH in ropsten network
 2. You should have metamask plugin in your brouser, if you want to so it by UI.
-3. Goto page https://ropsten.etherscan.io/address/0x3e399d510f67905f67e210f5b4c0b7d495a1fedb#writeContract
+3. Goto page https://ropsten.etherscan.io/address/0xD900Af4e7FcA95F52fc65F13199ffBEA0fb9Db9b#writeContract
 4. Call method `1. Build` and fill 5 parameters
 5. After transaction executed, check event list in transaction or in smart contract
 5.1. In event `VaspCreated` you can see vasp address in first property
