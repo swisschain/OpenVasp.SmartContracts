@@ -6,8 +6,4 @@ interface IVaspFactory {
     event VaspCreated(address indexed newVasp, address indexed owner);
 
     function creatVasp() external returns(address);
-
-    function lastVasp()
-        external view
-        returns (address);
 }
